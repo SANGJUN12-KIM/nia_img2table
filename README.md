@@ -11,6 +11,13 @@
 ```python
 <table>\인식된표의정보\</table> 코드 반환
 ```  
+```python
+wget https//www.python.org/ftp/python/3.8.5/Python-3.8.5.tgz
+```
+```python
+tar xvfzPython-3.8.5.tgz
+cd Python-3.8.5
+```  
   
 - 표 정보 전체에 대한 인식 불가시 return: None
 - 표 내부의 일부 셀에 대한 텍스트정보 인식 불가시: NaN
