@@ -10,20 +10,7 @@
 - 표가 있는 이미지 파일(.png)에서 표를 각 셀을 추출하여
 ```python
 <table>\인식된표의정보\</table> 코드 반환
-```  
-```python
-$ wget https//www.python.org/ftp/python/3.8.5/Python-3.8.5.tgz
-```
-```python
-$ tar xvfzPython-3.8.5.tgz
-```
-```python
-$ cd Python-3.8.5
-```
-```python
-$ sudo apt-get install idle-python3.8
-```
-  
+``` 
 - 표 정보 전체에 대한 인식 불가시 return: None
 - 표 내부의 일부 셀에 대한 텍스트정보 인식 불가시: NaN
 >출력 예)<table><tr><td>Time (drops Of water)</td><td>Distance (cm)</td></tr><tr><td>1</td><td>10,11,9</td></tr><tr><td>2</td><td>29, 31, 30</td></tr><tr><td>3</td><td>59, 58, 61</td></tr><tr><td>NaN</td><td>102, 100, 98</td></tr><tr><td>5</td><td>122, 125, 127</td></tr></table>
